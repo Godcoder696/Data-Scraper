@@ -82,7 +82,7 @@ async function scrape() {
         // driver = await new Builder().forBrowser(Browser.CHROME).build();
 
         // login into twitter/X
-        await twitterLogin("lakshayy307", "Iw@ntF@@NG#01");
+        await twitterLogin("lakshayy307@gmail.com", "Iw@ntF@@NG#01");
         
         // scrape trends
         const trendsList= getTrends(5);
