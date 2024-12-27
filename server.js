@@ -1,7 +1,7 @@
 const { connectDB, insertAllTrends } = require('./lib');
 const express=require("express");
 const cors= require('cors');
-const { scrape } = require('./Sracper');
+const { scrape } = require('./scraper');
 const app= express();
 
 
